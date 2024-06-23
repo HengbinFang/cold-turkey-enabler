@@ -27,9 +27,10 @@ Edit:
 - `ConfigSchedule`. Mainly:
     - How often to check if it's enabled in TaskScheduler
 
-# Compiling
+## Compiling
 
 I used Visual Studio 2022 to compile C#.
+
 I used Nuitka to compile the Python.
 - ```python -m nuitka --onefile auto_enabler.py --windows-console-mode=disable```
 - It might get detected as a virus but ignore it.
